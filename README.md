@@ -1,3 +1,18 @@
+# INSTALLING GUIDE:
+Using NPM:
+
+npm install @datorama/akita-cli -g
+
+Add to project:
+
+ng add @datorama/akita
+
+DONE
+
+# ADD NEW AKITA STATE:
+
+ng g af state/"state-name"
+
 # Search
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
