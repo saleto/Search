@@ -1,0 +1,26 @@
+<form (submit)="search.emit({ searchTerm: searchTerm, selectedCategory: selectedCategory })">
+    <mat-card class="search-container">
+        <mat-card-title>Search</mat-card-title>
+
+        <mat-card-content>
+
+            <mat-form-field class="search-term-input-container">
+
+                <input matInput type="text" placeholder="term" [(ngModel)]="searchTerm" name="search-term" />
+
+            </mat-form-field>
+
+            <mat-form-field>
+
+                <mat-select placeholder="category" [compareWith]="compareWith" [(ngModel)]="selectedCategory" name="category">
+                    <mat-option *ngFor="let category of (categories$ | async)" [value]="category">{{category.name}}</mat-option>
+                </mat-select>
+
+            </mat-form-field>
+
+        </mat-card-content>
+
+        <mat-card-actions><button mat-raised-button color="primary" type="submit">Search</button></mat-card-actions>
+
+    </mat-card>
+</form>

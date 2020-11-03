@@ -1,0 +1,30 @@
+import { Category } from './category.model';
+
+
+export const CategoryMock : Category[] = [
+    {id: 0, name: 'started for nothing'},
+    {id: 1, name: 'Hobbies'},
+    {id: 2, name: 'Garening'},
+    {id: 3, name: 'Home Appliances'},
+    {id: 4, name: 'Consumer Electronics'},
+    {id: 5, name: 'Clothing'},
+    {id: 6, name: 'Gadgets'},
+    {id: 7, name: 'Hobbies'},
+    {id: 8, name: 'Garening'},
+    {id: 9, name: 'Home Appliances'},
+    {id: 10, name: 'Consumer Electronics'},
+    {id: 11, name: 'Clothing'},
+    {id: 12, name: 'Gadgets'},
+    {id: 13, name: 'Hobbies'},
+    {id: 14, name: 'Garening'},
+    {id: 15, name: 'Home Appliances'},
+    {id: 16, name: 'Consumer Electronics'},
+    {id: 17, name: 'Clothing'},
+    {id: 18, name: 'Gadgets'},
+    {id: 19, name: 'Hobbies'},
+    {id: 20, name: 'Garening'},
+    {id: 21, name: 'Home Appliances'},
+    {id: 22, name: 'Consumer Electronics'},
+    {id: 23, name: 'Clothing'},
+    {id: 24, name: 'Gadgets'},
+  ];
